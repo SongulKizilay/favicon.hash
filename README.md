@@ -10,11 +10,12 @@ Bu proje, kullanıcının belirlediği bir URL'den web sitesinin favicon'unun ha
 2. git clone https://github.com/SongulKizilay/favicon.hash.git
 
 3. Python 3 yüklü olduğundan emin olun.
-4. whereis python
+whereis python
 
 5. Konsol (Terminal) veya komut istemcisini kullanarak projenin ana dizinine gidin.
+   
 cd favicon.hash.git
-6. Python ile `favicon_hash.py` dosyasını çalıştırın ve istediğiniz URL'yi girin:
+7. Python ile `favicon_hash.py` dosyasını çalıştırın ve istediğiniz URL'yi girin:
 
    ```bash
    python3 favicon_hash.py
