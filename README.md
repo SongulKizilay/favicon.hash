@@ -7,15 +7,17 @@ Bu proje, kullanıcının belirlediği bir URL'den web sitesinin favicon'unun ha
 ## Kullanım
 
 1. Bu projeyi klonlayın veya ZIP dosyasını indirin.
+2. git clone https://github.com/SongulKizilay/favicon.hash.git
 
-2. Python 3 yüklü olduğundan emin olun.
+3. Python 3 yüklü olduğundan emin olun.
+4. whereis python
 
-3. Konsol (Terminal) veya komut istemcisini kullanarak projenin ana dizinine gidin.
-
-4. Python ile `favicon_hash.py` dosyasını çalıştırın ve istediğiniz URL'yi girin:
+5. Konsol (Terminal) veya komut istemcisini kullanarak projenin ana dizinine gidin.
+cd favicon.hash.git
+6. Python ile `favicon_hash.py` dosyasını çalıştırın ve istediğiniz URL'yi girin:
 
    ```bash
-   python favicon_hash.py
+   python3 favicon_hash.py
 Program URL'den içeriği alacak, favicon'u kodlayacak ve hash değerini hesaplayacaktır. Sonuç, ekranda görüntülenecektir.
 Örnek Kullanım
 Kullanıcıdan alınan URL: https://example.com
